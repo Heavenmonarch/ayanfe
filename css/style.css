@@ -1,0 +1,104 @@
+#firstsection{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+.firstheading{
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+}
+.image1{
+    float: left;
+    height: auto;
+    width: auto;
+    padding-right: 60px;
+}
+button{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    padding: 4px;
+}
+button:hover{
+    color: black;
+    background-color: white;
+    padding: 4px;
+}
+#content{
+    float: right;
+}
+.Timer{
+    color: white;
+    display: flex;
+}
+#days{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-bottom: -15px;
+}
+#hours{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-bottom: -15px;
+}
+#minutes{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-bottom: -15px;
+}
+#seconds{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-bottom: -15px;
+}
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Timer div{
+    flex-basis: 100px;
+}
+@media screen and (max-width: 1000px) {
+    .content{
+        text-align: left;
+        font-size: 25px;
+        justify-content: center;
+        float:none;
+    }
+    .firstheading{
+        font-size: 32px;
+    }
+    .Timer{
+        font-size: 25px;
+    }
+    .img{
+        width: auto;
+        height: auto;
+    }
+    #days{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        margin-bottom: -10px;
+    }
+    #hours{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        margin-bottom: -10px;
+    }
+    #minutes{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        margin-bottom: -10px;
+    }
+    #seconds{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        margin-bottom: -10px;
+    }
+}
